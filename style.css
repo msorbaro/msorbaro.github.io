@@ -1,0 +1,167 @@
+.backgroundImageFullScreen {
+            background-image: url(bcgrnd.jpg);
+            background-size: cover;
+            margin-bottom: 0px;
+            padding: 0px;
+            -webkit-background-size: 100%;
+            -moz-background-size: 100%;
+            -o-background-size: 100%;
+            background-size: 100%;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+}
+
+.introtext{
+        padding: 40px 180px;
+        text-align: center;
+}
+
+.introtext h1 {
+    font-size: 60px;
+    color: white; 
+    text-shadow:
+    -2px -2px 0 #8c8b8b,
+    2px -2px 0 #8c8b8b,
+    -2px 2px 0 #8c8b8b,
+    2px 2px 0 #8c8b8b;  
+}
+
+.introtext p1 {
+    font-size: 20px;
+    color: white;
+}
+
+.website {
+   font-family: 'Raleway', sans-serif;
+
+}
+
+.title {
+    text-align: center; 
+    color: rgb(150, 0, 255);
+    font-size: 50px;
+}
+
+#profile {
+    background-color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.profile_image {
+    width: 60%;
+    height: 40%;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    padding-top: 2%;
+    
+}
+
+
+.info h1 {
+    text-shadow:
+    -1px -1px 0 #8c8b8b,
+    1px -1px 0 #8c8b8b,
+    -1px 1px 0 #8c8b8b,
+    1px 1px 0 #8c8b8b;  
+}
+
+.info h2 {
+    text-align: center;
+    color: rgb(150, 0, 255);
+}
+
+.info p {
+    text-align:justify;
+    padding-left: 5%;
+}
+
+.info li {
+    text-align: center;
+    list-style-type: none;
+    padding-right: 5%;
+}
+
+
+hr.style17 {
+	border-top: 1px solid #8c8b8b;
+	text-align: center;
+    width: 75%;
+}
+
+hr.style17:after {
+	content: 'x';
+	display: inline-block;
+	position: relative;
+	top: -14px;
+	padding: 0 10px;
+	background: #fff;
+	color: #8c8b8b;
+	font-size: 18px;
+	-webkit-transform: rotate(60deg);
+	-moz-transform: rotate(60deg);
+	transform: rotate(60deg);
+}
+
+.purplebackground hr.style17:after {
+    	background: rgb(247, 237, 255);
+}
+
+.purplebackground {
+    background-color: rgb(250, 237, 255);
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.purplebackground .row {
+    text-align: justify;
+}
+
+#experiance h3 {
+    font-size: 20px;
+}
+
+#experiance h4 {
+    font-size: 15px;
+    color:rgb(206, 135, 255);
+}
+
+.imgexp {
+    width: 200px;
+    height: 200px;
+    background: #fff;
+    display: block; 
+    margin: auto auto;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 10px;
+    background-color: rgb(250, 237, 255);
+}
+ 
+.lefttext p {
+    padding-left: 40px;
+}
+
+.lefttext h3 {
+    padding-left: 40px;
+}
+
+.lefttext h4 {
+    padding-left: 40px;
+}
+.righttext p {
+    padding-right: 40px;
+}
+
+.righttext h3 {
+    padding-right:40px; 
+}
+
+.righttext h4 {
+    padding-right: 40px;
+}
+
+

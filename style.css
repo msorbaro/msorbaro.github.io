@@ -185,9 +185,10 @@ hr.style17:after {
 }	
 .project p4 {
     position: absolute; 
-    padding-bttom: 50%; 
     text-align: center;
-    color:blue;
+	z-index:100;
+	top: 50%;
+    
 }
 
 .hideme {

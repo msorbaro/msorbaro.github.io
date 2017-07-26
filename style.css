@@ -187,6 +187,7 @@ hr.style17:after {
     position: absolute; 
     vertical-align: middle; 
     text-align: center;
+    color:blue;
 }
 
 .hideme {

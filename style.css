@@ -185,7 +185,7 @@ hr.style17:after {
 }	
 .project p4 {
     position: absolute; 
-    vertical-align: middle; 
+    padding-bttom: 50%; 
     text-align: center;
     color:blue;
 }

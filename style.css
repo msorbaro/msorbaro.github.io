@@ -46,8 +46,8 @@
 
 #profile {
     background-color: white;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .profile_image {
@@ -142,26 +142,40 @@ hr.style17:after {
 }
  
 .lefttext p {
-    padding-left: 40px;
+    padding-left: 10%;
 }
 
 .lefttext h3 {
-    padding-left: 40px;
+    padding-left: 10%;
 }
 
 .lefttext h4 {
-    padding-left: 40px;
+    padding-left: 10%;
 }
 .righttext p {
-    padding-right: 40px;
+    padding-right: 10%;
 }
 
 .righttext h3 {
-    padding-right:40px; 
+    padding-right:10%; 
 }
 
 .righttext h4 {
-    padding-right: 40px;
+    padding-right: 10%;
 }
 
+.project .row {
+    padding-left:23%;
+    padding-right:23%;
+}
 
+.project img {
+    padding-bottom: 10%;
+    display: block; 
+    margin: auto auto;
+    text-align: center;
+}
+
+.hideme {
+      opacity:0;
+}

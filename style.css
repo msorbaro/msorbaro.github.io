@@ -103,6 +103,7 @@ hr.style17:after {
 	font-size: 18px;
 	-webkit-transform: rotate(60deg);
 	-moz-transform: rotate(60deg);
+
 	transform: rotate(60deg);
 }
 
@@ -173,7 +174,13 @@ hr.style17:after {
     padding-bottom: 10%;
     display: block; 
     margin: auto auto;
-    text-align: center;
+    text-align: center; 
+    position: relative; 
+}
+
+.project h4 {
+    position: absolute; 
+    vertical-align: center; 
 }
 
 .hideme {

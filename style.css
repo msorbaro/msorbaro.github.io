@@ -180,7 +180,8 @@ hr.style17:after {
 
 .project h4 {
     position: absolute; 
-    vertical-align: center; 
+    vertical-align: middle; 
+    text-align: center;
 }
 
 .hideme {

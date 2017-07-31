@@ -1,7 +1,7 @@
 
 
 .backgroundImageFullScreen {
-            background-image: url(bcgrnd.png);
+            background: no-repeat center right fixed url(background.jpg);
             background-size: cover;
             margin-bottom: 0px;
             padding: 0px;
@@ -16,7 +16,7 @@
 }
 
 .introtext{
-        padding: 40px 180px;
+        padding: 7% 180px;
         text-align: center;
 }
 
@@ -24,10 +24,10 @@
     font-size: 60px;
     color: white; 
     text-shadow:
-    -2px -2px 0 #8c8b8b,
-    2px -2px 0 #8c8b8b,
-    -2px 2px 0 #8c8b8b,
-    2px 2px 0 #8c8b8b;  
+    -2px -2px 0 white,
+    2px -2px 0 white,
+    -2px 2px 0 white,
+    2px 2px 0 white;  
 }
 
 .introtext p1 {
@@ -42,7 +42,7 @@
 
 .title {
     text-align: center; 
-    color: rgb(150, 0, 255);
+    color: rgb(128, 0, 217);
     font-size: 50px;
 }
 
@@ -63,17 +63,10 @@
 }
 
 
-.info h1 {
-    text-shadow:
-    -1px -1px 0 #8c8b8b,
-    1px -1px 0 #8c8b8b,
-    -1px 1px 0 #8c8b8b,
-    1px 1px 0 #8c8b8b;  
-}
 
 .info h2 {
     text-align: center;
-    color: rgb(150, 0, 255);
+    color: rgb(128, 0, 217);
 }
 
 .info p {
@@ -174,7 +167,7 @@ hr.style17:after {
 }
 
 .project p4 {
-    color: rgb(150, 0, 255); 
+    color: rgb(128, 0, 217); 
     font-size: 25px;
     position: absolute;
     width: 100%; 
@@ -206,7 +199,7 @@ hr.style17:after {
 }
 
 .pimg img {
-        border: 4px solid rgb(150, 0, 255); 
+        border: 4px solid rgb(128, 0, 217); 
         -webkit-transition: all 300ms ease-out;  
         -moz-transition: all 300ms ease-out;  
         -o-transition: all 300ms ease-out;  

@@ -275,3 +275,7 @@ hr.style17:after {
     font-size: 15px;
     
 }
+
+.fade-caption p {
+    text-align: justify;
+}

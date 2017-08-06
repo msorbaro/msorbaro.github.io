@@ -114,6 +114,9 @@ hr.style17:after {
 
 .purplebackground .row {
     text-align: justify;
+    padding-left: 10%;
+    padding-right: 10%;
+    
 }
 
 #experiance h3 {
@@ -135,30 +138,52 @@ hr.style17:after {
     text-align: center;
     vertical-align: middle;
     padding-top: 10px;
-    background-color: rgb(250, 237, 255);
+    background-color: rgb(250, 237, 255);    
 }
  
-.lefttext p {
-    padding-left: 10%;
+.row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.lefttext h3 {
-    padding-left: 10%;
+.row > [class*='col-'] {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
 }
 
-.lefttext h4 {
-    padding-left: 10%;
+.row > [class*='col-'] img {
+  align-self: center;
 }
+
+
+.imgexp img:hover {
+    box-shadow: 0px 0px 20px rgb(128, 0, 217);
+    z-index: 2;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.1);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.1);   
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.1);
+    transition: all 200ms ease-in;
+    transform: scale(1.1);
+}
+
+
 .righttext p {
-    padding-right: 10%;
+    padding-right: 5%;
 }
 
 .righttext h3 {
-    padding-right:10%; 
+    padding-right:5%; 
 }
 
 .righttext h4 {
-    padding-right: 10%;
+    padding-right: 5%;
 }
 
 .project .row {
@@ -167,7 +192,7 @@ hr.style17:after {
 }
 
 .project p4 {
-    color: rgb(128, 0, 217); 
+    color: rgb(250, 237, 255); 
     font-size: 25px;
     position: absolute;
     width: 100%; 

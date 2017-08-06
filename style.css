@@ -271,9 +271,10 @@ hr.style17:after {
 }
 
 #contact .contactinfo {
-    text-align: center;
+    text-align: left;
     font-size: 15px;
-    
+    margin-left: 10%;
+
 }
 
 .fade-caption p {

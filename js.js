@@ -17,7 +17,22 @@ $(document).ready(function() {
             }
             
         }); 
-    
+        
+        var bottom_of_object = $("#intro").offset().top + $("#intro").outerHeight();
+        var bottom_of_window = $(window).scrollTop() + $(window).height();
+        
+        if (bottom_of_window < bottom_of_object){
+             $(".sidenav").hide(); 
+        }
+        else {
+            $(".sidenav").show(); 
+        }
+        
+
     });
     
+    $('.parallax').parallax();
+
+    
 });
+

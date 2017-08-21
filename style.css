@@ -1,7 +1,6 @@
 
 
 .backgroundImageFullScreen {
-            background: no-repeat center right fixed url(background.jpg);
             background-size: cover;
             margin-bottom: 0px;
             padding: 0px;
@@ -13,6 +12,74 @@
             -moz-background-size: cover;
             -o-background-size: cover;
             background-size: cover;
+}
+
+.fullscreen-bg {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
+    width: auto;
+    height: auto;
+}
+
+.fullscreen-bg__video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: auto;
+    height: 100%;
+    background-size: cover;
+
+}
+
+#intro h1 {
+    z-index: 100;
+    position: absolute;
+    vertical-align: middle;
+    color: white;
+    font-size: 1000%;
+    padding-top: 12%;
+    padding-left:3%;
+    text-shadow:
+    -2px -2px 0 grey,
+    2px -2px 0 grey,
+    -2px 2px 0 grey,
+    2px 2px 0 grey;
+    
+}
+
+#intro p {
+    z-index: 100;
+    position: absolute;
+    vertical-align: middle;
+    color: white;
+    margin-left:3%;
+    padding-top: 47%; 
+    font-size: 150%;
+
+}
+
+video {
+    /* Make video to at least 100% wide and tall */
+    min-width: 100%;
+    min-height: 100%;
+
+  /* Setting width & height to auto prevents the browser from stretching or squishing the video */
+    width: auto;
+    height: auto;
+
+  /* Center the video */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+    background-size: cover;
 }
 
 .introtext{
@@ -277,6 +344,115 @@ hr.style17:after {
 
 }
 
+
 .fade-caption p {
     text-align: justify;
 }
+
+
+
+.arrow {
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  margin-left:-20px;
+}
+
+.bounce {
+	-webkit-animation-name: bounce;
+	-moz-animation-name: bounce;
+	-o-animation-name: bounce;
+	animation-name: bounce;
+}
+.animated{-webkit-animation-fill-mode:both;
+-moz-animation-fill-mode:both;
+-ms-animation-fill-mode:both;
+-o-animation-fill-mode:both;
+
+            animation-iteration-count: infinite;
+       -moz-animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+
+animation-fill-mode:both;
+-webkit-animation-duration:2s;
+-moz-animation-duration:2s;
+-ms-animation-duration:2s;
+-o-animation-duration:2s;
+animation-duration:2s;
+}
+
+
+@-webkit-keyframes bounce {
+	0%, 20%, 50%, 80%, 100% {-webkit-transform: translateY(0);}	40% {-webkit-transform: translateY(-30px);}
+	60% {-webkit-transform: translateY(-15px);}
+}
+
+@-moz-keyframes bounce {
+	0%, 20%, 50%, 80%, 100% {-moz-transform: translateY(0);}
+	40% {-moz-transform: translateY(-30px);}
+	60% {-moz-transform: translateY(-15px);}
+}
+
+@-o-keyframes bounce {
+	0%, 20%, 50%, 80%, 100% {-o-transform: translateY(0);}
+	40% {-o-transform: translateY(-30px);}
+	60% {-o-transform: translateY(-15px);}
+}
+@keyframes bounce {
+	0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+	40% {transform: translateY(-30px);}
+	60% {transform: translateY(-15px);}
+}
+
+
+
+form input,
+form textarea {
+	width:97.4%;
+	height:30px;
+	padding:5px 10px;
+	font-size: 12px;
+	color:#999;
+	letter-spacing:1px;
+	background: #FFF;
+	border:2px solid #FFF;
+	margin-bottom:25px;
+  -webkit-transition:all .1s ease-in-out;
+	-moz-transition:all .1s ease-in-out;
+	-ms-transition:all .1s ease-in-out;
+	-o-transition:all .1s ease-in-out;
+	transition:all .1s ease-in-out;}
+
+form input:focus,
+form textarea:focus {
+	border:2px solid #dd4545;
+	color:#999;}
+
+form textarea {
+	height:150px;}
+
+form .submit {
+	width:100%;
+	padding:5px 10px;
+	font-size: 12px;
+	letter-spacing:1px;
+	background:#dd4545;
+	height:40px;
+	text-transform:uppercase;
+	letter-spacing:1px;
+	color:#FFF;
+	border:2px solid #b43838;
+  -webkit-transition:all .1s ease-in-out;
+	-moz-transition:all .1s ease-in-out;
+	-ms-transition:all .1s ease-in-out;
+	-o-transition:all .1s ease-in-out;
+	transition:all .1s ease-in-out;}
+
+form .submit:hover {
+	color:#FFF;
+	border:2px solid #dd4545;
+	background: #b43838;
+	cursor:pointer;}
+
+form .required {
+	color:#b43838;}

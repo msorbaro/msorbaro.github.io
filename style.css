@@ -466,3 +466,9 @@ form .required {
         border: 4px solid rgb(128, 0, 217); 
         padding: 3%;
 }
+
+
+.parallax-container {
+      height: 300px;
+}
+        

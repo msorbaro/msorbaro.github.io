@@ -1,11 +1,8 @@
-import $ from 'jquery';
-import './style.scss';
+import React from 'react';
+import ReactDOM from 'react-dom';
 
-let num = 0;
-
-const update = () => {
-  num += 1;
-  $('#main').html(num);
+const App = () => {
+  return <div className="test">All the React are belong to us!</div>;
 };
 
-setInterval(update, 1000);
+ReactDOM.render(<App />, document.getElementById('main'));

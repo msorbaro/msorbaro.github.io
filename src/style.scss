@@ -1,0 +1,13 @@
+body, html {
+  font-family: "Roboto", sans-serif;
+  background: linear-gradient(to bottom, #87e0fd 20%,#53cbf1 90%,#05abe0 60%);
+  height: 100%;
+}
+
+.logo {
+  background-image: url("sa3.gif");
+  width: 100px;
+  height: 100px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}

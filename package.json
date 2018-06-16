@@ -7,7 +7,7 @@
     "start": "NODE_ENV=development webpack-serve ./webpack.config.js",
     "build": "yarn clean; NODE_ENV=production webpack --colors",
     "clean": "rimraf dist",
-    "deploy": "yarn build; surge -p dist -d MorganSorbaro-cs52-starterSA6.surge.sh; yarn clean"
+    "deploy": "yarn build; surge -p dist -d http://msorbaro.github.io/msorbaro.github.io; yarn clean"
   },
   "devDependencies": {
     "autoprefixer": "^8.2.0",

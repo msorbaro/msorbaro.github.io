@@ -1,0 +1,42 @@
+/*biggest screen change size*/
+@media screen and (max-width: 900px) {
+
+  .skills {
+    flex-direction: column;
+  }
+
+  .hide {
+    margin-left: 4%;
+    margin-right: 4%;
+    width: 92%;
+  }
+
+}
+
+/*biggest screen change size*/
+@media screen and (max-width: 700px) {
+
+  #title h1 {
+    font-size: 5em;
+  }
+
+  .titleInfo {
+    width: 80%;
+  }
+
+  .modalimages {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-content: center;
+    justify-content: center;
+    padding-left: 25%;
+    padding-right: 25%;
+  }
+
+  .modalimages img {
+    margin-top: 10%;
+  }
+
+
+}

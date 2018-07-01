@@ -58,7 +58,7 @@ body {
 
 .titleInfo {
   margin-top: 18vh;
-  height: 50vh;
+  height: 60%;
   display: flex;
   flex-direction: column;
   text-align: center;

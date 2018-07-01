@@ -40,3 +40,9 @@
 
 
 }
+
+@media screen and (max-height: 850px) {
+  .title .titleInfo {
+    height: 80%;
+  }
+}

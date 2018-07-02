@@ -1,8 +1,25 @@
 /*biggest screen change size*/
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 800px) {
+  .skills img {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+
+}
+
+@media screen and (max-width: 600px) {
+
 
   .skills {
     flex-direction: column;
+  }
+
+  .skills img {
+    width: 35%;
+    height: auto;
   }
 
   .hide {
@@ -11,18 +28,19 @@
     width: 92%;
   }
 
+  .titleInfo {
+      width: 80%;
+  }
+  #title h1 {
+    font-size: 3.5em;
+  }
+
 }
 
 /*biggest screen change size*/
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 500px) {
 
-  #title h1 {
-    font-size: 5em;
-  }
 
-  .titleInfo {
-    width: 80%;
-  }
 
   .modalimages {
     display: flex;
@@ -37,12 +55,12 @@
   .modalimages img {
     margin-top: 10%;
   }
-
-
 }
 
-@media screen and (max-height: 850px) {
+@media screen and (max-height: 625px) {
   .title .titleInfo {
     height: 80%;
   }
+
+
 }

@@ -2,7 +2,7 @@ $('.project').click(function(){
  var title = $(this).find('h3').text();
  $('#modal-container .firstp').text(projectIntro[$(this).find('input').val()]);
  $('#modal-container .secondp').text(projectDetail[$(this).find('input').val()]);
- $('#modal-container h2').text(title);
+ $('#modal-container h2').text("<    " + title + "    />");
 
  if (projectLinks[$(this).find('input').val()].length === 0){
    $('.linkp').text("Contact me for code");
@@ -45,10 +45,10 @@ $('.project').click(function(){
  else {
    console.log(projectImages[$(this).find('input').val()][0]);
    $('.firsti').attr('src', projectImages[$(this).find('input').val()][0]);
-   $('.firsti').css('height', '300px');
+   $('.firsti').css('height', '200px');
    $('.firsti').css('width', 'auto');
    $('.secondi').attr('src', projectImages[$(this).find('input').val()][1]);
-   $('.secondi').css('height', '300px');
+   $('.secondi').css('height', '200px');
    $('.secondi').css('width', 'auto');
    $('.secondi').css('display', 'inline');
    $('.firsti').css('display', 'inline');

@@ -4,7 +4,7 @@
 }
 
 .nav-link {
-  font-size: 2em;
+  font-size: 1.5em;
   color: rgb(48,82,236);
   font-family: 'Montserrat', sans-serif;
 }
@@ -58,7 +58,7 @@ body {
 
 .titleInfo {
   margin-top: 18vh;
-  height: 60%;
+  height: 60vh;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -67,22 +67,23 @@ body {
   background-color: rgba(241,241,241,.75);
   z-index: 3;
   font-family: 'Montserrat', sans-serif;
-  padding: 2%;
+  padding-left:2%;
+  padding-right:2%;
   border-radius: 5%;
 }
 
 .titleInfo h1{
-  font-size: 8em;
+  font-size: 6.5em;
   color: rgb(192,65,245);
 }
 
 .titleInfo h3{
-  font-size: 2em;
+  font-size: 1.5em;
   color: rgb(48,82,236);
 }
 
 .titleInfo i{
-  font-size: 5em;
+  font-size: 3.5em;
 }
 
 .frontIcons {
@@ -116,7 +117,7 @@ body {
 
  .button {
   font-family: 'Montserrat', sans-serif;
-  font-size: 1.5em;
+  font-size: 1em;
   touch-callout: none;
   user-select: none;
   display: inline-block;

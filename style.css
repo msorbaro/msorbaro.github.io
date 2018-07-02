@@ -31,6 +31,10 @@ canvas {
   background-color:#CADEFF;
 }
 
+#break h1 {
+  font-size: 2em;
+}
+
 .second {
   margin-top: 2vh;
   color: rgb(48,84, 236);
@@ -49,10 +53,17 @@ canvas {
   width: 100vw;
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
   justify-content: space-around;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
+}
+
+.skills h4 {
+  font-size: 1em;
+}
+
+.skills img {
+  width: 70%;
 }
 
 .skills div {
@@ -65,6 +76,7 @@ canvas {
 .skills h2 {
   margin-top: 1vw;
   color: rgb(48,82,236);
+  font-size: 1.5em;
 }
 
 .hide {
@@ -79,6 +91,10 @@ canvas {
 }
 
 .hide p {
+  font-size: 1em;
+}
+
+.hide h2 {
   font-size: 1.5em;
 }
 
@@ -89,11 +105,20 @@ canvas {
 
 }
 
+.allprojects img {
+  width: 300px;
+  height: 200px;
+}
+
+.allprojects h3 {
+  font-size: 1.3em;
+}
+
 .allprojects{
   margin-top: 2vh;
   display: flex;
   flex-direction: column;
-  width: 70vw;
+  width: 85vw;
   flex-wrap: wrap;
 }
 

@@ -13,13 +13,13 @@ html.modal-active, body.modal-active {
   left: 0;
   transform: scale(0);
   z-index: 1;
-  font-size: .6em;
+  font-size: .5em;
   font-family: 'Montserrat', sans-serif;
 
 }
 
 #modal-container .modal a {
-  font-size: 2.5em;
+  font-size: 2em;
   color: rgb(192, 65, 245);
 }
 
@@ -64,17 +64,17 @@ html.modal-active, body.modal-active {
   position: relative;
   margin-left: 15vw;
   margin-right: 15vw;
-  max-height: calc(100vh - 210px);
+  max-height: calc(100vh - 175px);
   overflow-y: auto;
 }
 
 #modal-container .modal-background .modal h2 {
-  font-size: 4em;
+  font-size: 3.5em;
   color: rgb(192, 65, 245);
 
 }
 #modal-container .modal-background .modal p {
-  font-size: 2em;
+  font-size: 1.6em;
   text-align: justify;
   margin-left: 2vw;
   margin-right: 2vw;
